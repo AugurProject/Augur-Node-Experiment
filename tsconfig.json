@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "module": "commonjs",
+      "target": "es6",
+      "sourceMap": true,
+      "watch": false,
+      "declaration": true,
+      "declarationDir": "definitions",
+      "strictNullChecks": true,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "outDir": "build",
+      "baseUrl": "./",
+      "paths": {
+        "*":  ["typings/*"]
+      },
+      "typeRoots": [
+        "typings",
+        "node_modules/@types"
+      ],
+    },
+    "include": [
+      "scripts/**/*"
+    ],
+    "exclude": [
+      "**/*.pem",
+      "**/*.key"
+    ]
+}
