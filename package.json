@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@types/knex": "^0.14.8",
+    "@types/request-promise-native": "^1.0.15",
     "typescript": "3.1.6"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "fs-extra": "7.0.1",
     "knex": "0.14.4",
     "pouchdb": "7.0.0",
+    "request-promise-native": "^1.0.5",
     "sqlite3": "^4.0.4"
   }
 }
